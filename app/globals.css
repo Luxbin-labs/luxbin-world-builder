@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --color-luxbin-bg: #0f0f23;
+  --color-luxbin-panel: #1a1a2e;
+  --color-luxbin-orange: #FF6B35;
+  --color-luxbin-purple: #7C3AED;
+  --color-luxbin-gold: #FFD700;
+  --color-luxbin-green: #22C55E;
+}
+
+body {
+  background: #0f0f23;
+  color: white;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 2px;
+}
